@@ -1,0 +1,4 @@
+---
+dubzland_minio_download_url: "https://dl.min.io/server/minio/release/{{ dubzland_minio_platform }}/minio"
+dubzland_minio_systemd_unit_url: "https://raw.githubusercontent.com/minio/minio-service/master/linux-systemd/minio.service"
+dubzland_minio_data_dir: /var/lib/minio

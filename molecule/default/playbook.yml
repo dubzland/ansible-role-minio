@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansible-role-minio
+      dubzland_minio_access_key: "myaccesskey"
+      dubzland_minio_secret_key: "supersekret"

@@ -1,0 +1,7 @@
+---
+dubzland_minio_platform: "linux-amd64"
+dubzland_minio_service_user: "minio"
+dubzland_minio_service_group: "minio"
+dubzland_minio_port: 9199
+dubzland_minio_access_key: "super"
+dubzland_minio_secret_key: "secret"

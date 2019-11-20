@@ -1,0 +1,8 @@
+# Volume to be used for MinIO server.
+MINIO_VOLUMES="{{ dubzland_minio_data_dir }}"
+# Use if you want to run MinIO on a custom port.
+MINIO_OPTS="--address :{{ dubzland_minio_port }}"
+# Access Key of the server.
+MINIO_ACCESS_KEY={{ dubzland_minio_access_key }}
+# Secret key of the server.
+MINIO_SECRET_KEY={{ dubzland_minio_secret_key }}

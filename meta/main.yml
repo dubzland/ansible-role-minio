@@ -1,0 +1,18 @@
+dependencies: []
+
+galaxy_info:
+  role_name: minio
+  author: t3hprm13
+  description: Minio object storage server for Debian
+  company: Cedar House Labs
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+  galaxy_tags:
+    - minio
+    - cache
+    - s3
