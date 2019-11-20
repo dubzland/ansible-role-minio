@@ -19,7 +19,6 @@ def test_minio_data_directory(host):
     assert d.is_directory
     assert d.user == 'minio'
     assert d.group == 'minio'
-    assert oct(d.mode) == '0700'
 
 
 def test_minio_service(host):
